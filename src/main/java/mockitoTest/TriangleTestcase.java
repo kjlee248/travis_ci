@@ -11,6 +11,8 @@ import static org.mockito.Mockito.*;
 
 import org.junit.jupiter.api.Test;
 
+//Travis ¿¬µ¿
+
 class TriangleTestcase {
 
 	Triangleservice service = mock(Triangleservice.class);
@@ -22,6 +24,7 @@ class TriangleTestcase {
 		assertEquals(24, test.getArea(3,4,5));
 		verify(service).getTotalLength(3,4,5);
 
+	
 	}
 
 }
